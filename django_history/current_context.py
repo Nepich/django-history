@@ -1,7 +1,8 @@
 #coding: utf-8
 from django.db import models
 from django.db.models import signals
-from django.utils.functional import curry
+from funtools import partial as curry
+# from django.utils.functional import curry
 from django.utils.decorators import decorator_from_middleware
 
 
