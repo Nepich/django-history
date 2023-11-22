@@ -8,7 +8,8 @@ from django_history.manager import HistoryDescriptor
 import pickle
 from copy import copy
 from django.utils import timezone
-from django.utils.functional import curry
+from functools import partial as curry
+# from django.utils.functional import curry
 from django.utils.encoding import force_unicode
 from django.core.exceptions import ObjectDoesNotExist
 
