@@ -5,7 +5,7 @@ from django.db import models
 from django_history.current_context import CurrentUserField
 from django_history.manager import HistoryDescriptor
 
-import cPickle as pickle
+import pickle
 from copy import copy
 from django.utils import timezone
 from django.utils.functional import curry
